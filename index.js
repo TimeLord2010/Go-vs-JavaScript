@@ -15,18 +15,14 @@ function callatzSeries(n) {
     }
     log(`iterations: ${i}`)
     log('-----')
-    return n
 }
 
 function main() {
     const begin = new Date()
-    let arr = []
     for (let i = 1; i < 10000; i++) {
-        n = callatzSeries(i)
-        arr.push(n)
+        callatzSeries(i)
     }
     const end = new Date()
-    log(`Array: `, arr)
     log(`Execution time: ${end.getTime() - begin.getTime()}ms`)
 }
 
