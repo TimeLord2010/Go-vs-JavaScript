@@ -15,13 +15,10 @@ func callatz(n int) int {
 
 func callatzSeries(n int) int {
 	i := 0
-	// fmt.Printf("n = %d\n", n)
 	for n != 1 {
 		n = callatz(n)
 		i = i + 1
 	}
-	// fmt.Printf("iterations: %d\n", i)
-	// fmt.Println("------")
 	return n
 }
 
