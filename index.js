@@ -10,11 +10,11 @@ function callatz(n) {
 
 function callatzSeries(n) {
     let i = 0;
-    // log(`n = ${n}`)
+    log(`n = ${n}`)
     for (; n != 1; n = callatz(n), i++) {
     }
-    //log(`iterations: ${i}`)
-    // log('-----')
+    log(`iterations: ${i}`)
+    log('-----')
     return n
 }
 
