@@ -59,6 +59,6 @@ Winner: JavaScript
 
 Go seems to be way more performant when there are few to none logs, which is the really for most cases. However, it lost to JavaScript by a small margin when there were more logs.
 
-The second there should be taken into account, but only secondarily. Its only tell us that go interface with the terminal is not as good as JavaScript's. And that may not even be true for other terminals or operating systems.
+The second there should be taken into account, but only secondarily. It only tell us that Go interface with the terminal is not as good as JavaScript's. And that may not even be true for other terminals or operating systems. In fact, I ran the same test in the Powershell terminal for VS Code, I Go started to win again by being more than 2000 miliseconds ahead of JavaScript.
 
 Taken that into consideration, Go won.
